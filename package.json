@@ -1,0 +1,12 @@
+{
+  "name": "nightkeep-pixel-idle",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Original pixel-art monster idle defense prototype",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/smoke.cjs"
+  },
+  "engines": { "node": "22.x" },
+  "devDependencies": { "playwright": "1.55.0" }
+}
